@@ -23,7 +23,7 @@ let sponsorList = [{
 function Sponsor() {
   return (
     <div id='sponsor-page' className='page'>
-        <h1>Sponsors</h1>
+        <h1 className='title'>Sponsors</h1>
         <div className='sponsor-card-container'>
           <h4>Platinum Sponsors</h4>
           <section id='platinum-sponsors'>

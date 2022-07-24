@@ -5,7 +5,7 @@ function Timeline() {
   return (
     <div id='timeline-page' className='timeline page'>
       <div className="timeline-heading">
-        <h1>Timeline</h1>
+        <h1 className='title'>Timeline</h1>
       </div>
       <div className="container left">
         <div className="date">Date</div>
