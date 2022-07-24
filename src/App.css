@@ -11,6 +11,14 @@
   box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* GLOBALS */
 
 .page {
@@ -50,26 +58,148 @@
 
 /* ABOUT PAGE */
 
-#about-page {
-}
+#about-page {}
 
 
 /* TIMELINE PAGE */
 
-#timeline-page {
+#timeline-page img {
+  top: 0;
 }
+
+#timeline-page {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 16rem;
+}
+
+#timeline-page::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: #0f2127;
+  top: 22%;
+  bottom: 22.5%;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timeline-heading {
+  position: relative;
+  margin-top: -9rem;
+  padding-bottom: 6rem;
+}
+
+.timeline-heading h1 {
+  font-size: 3rem;
+}
+
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 40%;
+}
+
+.container.left {
+  position: relative;
+  left: -20%;
+}
+
+.container.right {
+  position: relative;
+  left: 19.9%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid #0f2127;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #0f2127;
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0f2127;
+  text-transform: uppercase;
+  /* letter-spacing: 1px;
+  z-index: 1; */
+}
+
+.container.left .date {
+  right: -135px;
+}
+
+.container.right .date {
+  left: -135px;
+}
+
+.container .content {
+  padding: 20px;
+  background: #F6D155;
+  position: relative;
+  border-radius: 10px;
+}
+
+.container.right .content {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #000000;
+  font-weight: 600;
+}
+
+.container .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0f2127;
+}
+
 
 /* SPONSOR PAGE */
 
-#sponsor-page {
-
-}
+#sponsor-page {}
 
 /* CONTACT PAGE */
 
-#contact-page {
-
-}
+#contact-page {}
 
 /* FOOTER */
 
