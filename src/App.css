@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+:root {
+  /* VARIABLES */
+
+  --primary-bg-color: #000000;
+  --primary-accent-color: #8dce15;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* GLOBALS */
 
-.App-header {
-  background-color: #282c34;
+.page {
   min-height: 100vh;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 3px solid blue;
 }
 
-.App-link {
-  color: #61dafb;
+/* HEADER */
+
+#header {
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* LANDING PAGE */
+
+#landing-page {
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--primary-bg-color);
+  color: #fff;
+}
+
+#illustration-container {
+  height: 20rem;
+  width: 20rem;
+  background-color: var(--primary-accent-color);
+}
+
+/* ABOUT PAGE */
+
+#about-page {
+}
+
+
+/* TIMELINE PAGE */
+
+#timeline-page {
+}
+
+/* SPONSOR PAGE */
+
+#sponsor-page {
+
+}
+
+/* CONTACT PAGE */
+
+#contact-page {
+
+}
+
+/* FOOTER */
+
+#footer {
+  min-height: 15vh;
 }
