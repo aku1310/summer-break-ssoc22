@@ -7,7 +7,7 @@ function Landing() {
             <p>Summer Break</p>
             <p>Date: <span>August 27, 2022</span></p>
             <p>Join us at: <a href='#'>Bennet University, </a></p>
-            <applybutton/>
+            {/* <applybutton/> */}
         </div>
         <div id='illustration-container'>
 
