@@ -9,7 +9,7 @@ import Timeline from './components/Timeline';
 
 function App() {
   return (
-    <>
+    <div>
     <Header/>
     <Landing/>
     <About/>
@@ -17,7 +17,7 @@ function App() {
     <Sponsor/>
     <Contact/>
     <Footer/>
-    </>
+    </div>
   );
 }
 
