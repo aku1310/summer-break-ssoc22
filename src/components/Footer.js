@@ -5,7 +5,7 @@ function Footer() {
     <div id='footer'>
         Copyrights @SSOC
         <p>
-          Developed by <a>Vishrut</a>, <a>Akanksha</a> and <a>SSOC Team</a>
+          Developed by <a href='https://github.com/VishrutAggarwal' rel='noreferrer'>Vishrut</a>, <a href='https://github.com/aku1310' target='_blank' rel='noreferrer'>Akanksha</a> and <a>SSOC Team</a>
         </p>
     </div>
   )
