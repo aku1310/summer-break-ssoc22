@@ -1,23 +1,21 @@
 import React from 'react'
 
-let sponsorList = [{
-  platinum: [
-    {
-      name: "Devfolio",
-      url: "#"
-    },
-    {
-      name: "Polygon",
-      url: "#"
-    }
-  ]},
+let platinum = [
   {
-  gold: [
-    {
-      name: "FileCoin",
-      url: "#"
-    }
-  ]}
+    name: "Devfolio",
+    url: "#"
+  },
+  {
+    name: "Polygon",
+    url: "#"
+  }
+];
+
+let gold = [
+  {
+    name: "FileCoin",
+    url: "#"
+  }
 ]
 
 function Sponsor() {
@@ -26,24 +24,38 @@ function Sponsor() {
         <h1 className='title'>Sponsors</h1>
         <div className='sponsor-card-container'>
           <h4>Platinum Sponsors</h4>
-          <section id='platinum-sponsors'>
-            <div className='card'>
-              <h6>Devfolio</h6>
-              <img src='#' alt='devfolio-logo'/>
-            </div>
-            <div className='card'>
-              <h6>Polygon</h6>
-              <img src='#' alt='polygon-logo'/>
-            </div>
+          <section id='platinum-sponsors' className='sponsor-panel'>
+            {
+              platinum.map(spon => {
+                return (
+                  <div>
+                    <div className='card'>
+                      <h6 className='card-title'>{spon.name}</h6>
+                      <img className='card-logo' src={spon.url} alt={spon.name}/>
+                  </div>
+                  </div>
+                )
+              })
+            }
           </section>
           
           <h4>Gold Sponsors</h4>
-          <section id='gold-sponsors'>
-            <div className='card'>
-              <h6>FileCoin</h6>
-              <img src='#' alt='filecoin-logo'/>
-            </div>
+          <section id='gold-sponsors' className='sponsor-panel'>
+            {
+              gold.map(spon => {
+                return (
+                  <div>
+                    <div className='card'>
+                      <h6 className='card-title'>{spon.name}</h6>
+                      <img className='card-logo' src={spon.url} alt={spon.name}/>
+                  </div>
+                  </div>
+                )
+              })
+            }
           </section>
+
+
         </div>
     </div>
   )
