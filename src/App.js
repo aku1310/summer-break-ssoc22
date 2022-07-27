@@ -10,13 +10,13 @@ import Timeline from './components/Timeline';
 function App() {
   return (
     <div>
-    <Header/>
-    <Landing/>
-    <About/>
-    <Timeline/>
-    <Sponsor/>
-    <Contact/>
-    <Footer/>
+      <Header/>
+      <Landing/>
+      <About/>
+      <Timeline/>
+      <Sponsor/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
