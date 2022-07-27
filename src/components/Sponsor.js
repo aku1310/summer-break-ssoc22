@@ -28,7 +28,7 @@ function Sponsor() {
             {
               platinum.map(spon => {
                 return (
-                  <div>
+                  <div key={spon.name}>
                     <div className='card'>
                       <h6 className='card-title'>{spon.name}</h6>
                       <img className='card-logo' src={spon.url} alt={spon.name}/>
@@ -44,7 +44,7 @@ function Sponsor() {
             {
               gold.map(spon => {
                 return (
-                  <div>
+                  <div key={spon.name}>
                     <div className='card'>
                       <h6 className='card-title'>{spon.name}</h6>
                       <img className='card-logo' src={spon.url} alt={spon.name}/>
