@@ -70,13 +70,14 @@
   z-index: 100;
 }
 
-#illustration-container {
-
-}
-
 #landing-title {
   font-size: 4rem;
   font-weight: bold;
+}
+
+#bennet-link-image {
+  height: 1.3rem;
+  width: 1.3rem;
 }
 
 /* ABOUT PAGE */
