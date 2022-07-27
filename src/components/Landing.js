@@ -17,8 +17,8 @@ function Landing() {
     <div id='landing-page' className='page'>
         <div id='Details'>
             <p className='accented' id='landing-title'>Summer Break</p><br/><br/>
-            <p>Date: <span className='accented'>August 27, 2022</span></p><br/>
-            <p>Join us at: <span className='accented'>Bennet University, Greater Noida</span> <a href='https://goo.gl/maps/d6YpcNqU8sDLmhSj6' target='_blank' rel='noreferrer'><img src='https://cdn.discordapp.com/attachments/979642815648772106/1000426067338723378/unknown.png' id='bennet-link-image'/></a></p><br/><br/><br/>
+            <p className='details-landing'>Date: <span className='accented'>August 27, 2022</span></p><br/>
+            <p className='details-landing'>Join us at: <span className='accented'>Bennet University, Greater Noida</span> <a href='https://goo.gl/maps/d6YpcNqU8sDLmhSj6' target='_blank' rel='noreferrer'><img src='https://cdn.discordapp.com/attachments/979642815648772106/1000426067338723378/unknown.png' id='bennet-link-image'/></a></p><br/><br/><br/>
             <div 
               className='apply-button' 
               data-hackathon-slug="YOUR-HACKATHON-SLUG" 

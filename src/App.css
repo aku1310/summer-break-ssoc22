@@ -6,9 +6,9 @@
   /* Colors */
 
   --primary-bg-color: #031b3f;
-  --primary-bg-color-translucent: #354255cf;
+  --primary-bg-color-translucent: #0161a1;
   --primary-accent-color: #007ccf;
-  --secondary-accent-color: #ffffff;
+  --secondary-accent-color: #cde0ff;
 
   /* Fonts */
 
@@ -73,6 +73,10 @@
 #landing-title {
   font-size: 4rem;
   font-weight: bold;
+}
+
+.details-landing {
+  font-size: 1.2rem;
 }
 
 #bennet-link-image {
@@ -296,4 +300,9 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: var(--primary-bg-color-translucent);
+}
+
+#footer a {
+  text-decoration: none;
+  color: var(--secondary-accent-color);
 }
