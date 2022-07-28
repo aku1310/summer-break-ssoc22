@@ -50,9 +50,14 @@
   height: 15vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--primary-bg-color-translucent);
+}
+
+#ssoc-logo {
+  height: 10rem;
+  width: auto;
 }
 
 /* LANDING PAGE */
@@ -226,6 +231,20 @@
   color: var(--secondary-accent-color);
 }
 
+/* TIMELINE COMING SOON */
+
+.timeline-coming-soon-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20rem;
+}
+
+#coming-soon {
+  font-size: 3rem;
+  color: var(--secondary-accent-color);
+}
 
 /* SPONSOR PAGE */
 
