@@ -3,18 +3,18 @@ import React from 'react'
 let platinum = [
   {
     name: "Devfolio",
-    url: "#"
+    url: './../images/Devfolio_Logo-Colored.png'
   },
   {
     name: "Polygon",
-    url: "#"
+    url: './../images/Polygon_Logo-Colored.png'
   }
 ];
 
 let gold = [
   {
     name: "FileCoin",
-    url: "#"
+    url: './../images/Filecoin Coloured White Text.png'
   }
 ]
 
@@ -31,7 +31,7 @@ function Sponsor() {
                   <div key={spon.name}>
                     <div className='card'>
                       <h6 className='card-title'>{spon.name}</h6>
-                      <img className='card-logo' src={spon.url} alt={spon.name}/>
+                      {/* <img className='card-logo' src={require("spon.url")} alt={spon.name}/> */}
                   </div>
                   </div>
                 )
@@ -47,7 +47,7 @@ function Sponsor() {
                   <div key={spon.name}>
                     <div className='card'>
                       <h6 className='card-title'>{spon.name}</h6>
-                      <img className='card-logo' src={spon.url} alt={spon.name}/>
+                      {/* <img className='card-logo' src={require(spon.url)} alt={spon.name}/> */}
                   </div>
                   </div>
                 )
