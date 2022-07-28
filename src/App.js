@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Landing from './components/Landing';
 import Sponsor from './components/Sponsor';
 import Timeline from './components/Timeline';
+import TimelineComingSoon from './components/TimelineComingSoon';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Header/>
       <Landing/>
       <About/>
-      <Timeline/>
+      <TimelineComingSoon/>
+      {/* <Timeline/> */}
       <Sponsor/>
       <Contact/>
       <Footer/>
