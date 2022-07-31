@@ -8,7 +8,7 @@
   /* --primary-bg-color: #d4ad2f; */
   --primary-bg-color: #C97D60;
   --primary-bg-color-translucent: #fff4ef;
-  --primary-accent-color: #ffdddd;
+  --primary-accent-color: #fff6f1;
   --secondary-accent-color: #D5B0A8;
   --primary-text-color: #0d0800;
 
@@ -292,9 +292,9 @@
 
 .card {
   display: grid;
-  min-height: 10rem;
+  min-height: 7rem;
   width: 20rem;
-  /* background-color: var(--secondary-accent-color); */
+  background-color: white;
   border-radius: 2rem;
   /* grid-template-rows: 3fr 7fr;
   grid-template-areas: "title"
@@ -368,11 +368,11 @@
   }
 
   #ssoc-logo {
-    height: 6rem;
+    height: 5rem;
   }
 
   #codemin-logo {
-    height: 1.4rem;
+    height: 1.2rem;
   }
 
   /* LANDING PAGE */
@@ -398,14 +398,20 @@
   #illustration-container {
     position: absolute;
     opacity: 0.05;
+    /* width: 100%;
+    margin-left: -13rem; */
     pointer-events: none;
     /* display: none; */
+  }
+
+  #illus {
+    width: 100%;
   }
 
   /* ABOUT PAGE */
 
   #about-page #about-section{
-    width: auto;
+    width: 100%;
   }
 
   /* TIMELINE PAGE*/
@@ -440,8 +446,8 @@
 
   #contact-page {
     height: 20vh;
-    padding: 2rem;
-    font-size: 1.2rem;
+    padding: 1rem;
+    font-size: 1rem;
     
   }
 
