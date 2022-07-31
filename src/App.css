@@ -115,6 +115,8 @@
   font-weight: bolder;
   font-size: 1.5rem;
   gap: 2.3rem;
+  text-align: justify; 
+  text-justify: inter-word;
 }
 
 
