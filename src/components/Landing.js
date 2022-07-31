@@ -14,11 +14,11 @@ function Landing() {
   }, []);
 
   return (
-    <div id='landing-page' className='page'>
+    <div id='landing-page' className='page landing-page'>
         <div id='Details'>
             <p className='accented' id='landing-title'>Summer Break</p><br/><br/>
             <p className='details-landing'>Date: <span className='accented'>August 27, 2022</span></p><br/>
-            <p className='details-landing'>Join us at: <span className='accented'>Bennet University, Greater Noida</span> <a href='https://goo.gl/maps/d6YpcNqU8sDLmhSj6' target='_blank' rel='noreferrer'><img src={require('./../images/outside-link')} id='bennet-link-image' alt='outlink'/></a></p><br/><br/><br/>
+            <p className='details-landing'>Join us at: <span className='accented'>Bennett University, Greater Noida</span> <a href='https://goo.gl/maps/d6YpcNqU8sDLmhSj6' target='_blank' rel='noreferrer'><img src={require('./../images/outside-link')} id='bennet-link-image' alt='outlink'/></a></p><br/><br/><br/>
             <div 
               className='apply-button' 
               data-hackathon-slug="summerbreak" 

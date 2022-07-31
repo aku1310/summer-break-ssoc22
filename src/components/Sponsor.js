@@ -23,7 +23,7 @@ function Sponsor() {
     <div id='sponsor-page' className='page'>
         <h1 className='title'>Sponsors</h1>
         <div className='sponsor-card-container'>
-          <h4>Platinum Sponsors</h4>
+          <h4 className='sponsor-heading'>Platinum Sponsors</h4>
           <section id='platinum-sponsors' className='sponsor-panel'>
             {/* {
               platinum.map(spon => {
@@ -49,7 +49,7 @@ function Sponsor() {
             </div>
           </section>
           
-          <h4>Gold Sponsors</h4>
+          <h4 className='sponsor-heading-gold'>Gold Sponsors</h4>
           <section id='gold-sponsors' className='sponsor-panel'>
             {/* {
               gold.map(spon => {
