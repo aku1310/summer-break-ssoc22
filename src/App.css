@@ -6,15 +6,16 @@
   /* Colors */
 
   /* --primary-bg-color: #d4ad2f; */
-  --primary-bg-color: #cbcda3;
-  --primary-bg-color-translucent: #c1e141;
-  --primary-accent-color: #c46800;
-  --secondary-accent-color: #cde0ff;
-  --primary-text-color: #2e1e00;
+  --primary-bg-color: #C97D60;
+  --primary-bg-color-translucent: #fff4ef;
+  --primary-accent-color: #ffdddd;
+  --secondary-accent-color: #D5B0A8;
+  --primary-text-color: #0d0800;
 
   /* Fonts */
 
   --primary-font: "Montserrat Alternates";
+
 }
 
 *,
@@ -23,7 +24,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: var(--primary-font);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: var(--primary-font); */
 }
 
 /* GLOBALS */
@@ -90,6 +92,7 @@
 
 .details-landing {
   font-size: 1.2rem;
+  font-weight: 700;
 }
 
 #bennet-link-image {
@@ -114,7 +117,9 @@
   border-radius: 1rem;
   font-weight: bolder;
   font-size: 1.5rem;
-  gap: 2.3rem;
+  text-align: justify;
+  text-justify: inter-word;
+  /* gap: 2.3rem; */
 }
 
 
@@ -289,7 +294,7 @@
   display: grid;
   min-height: 10rem;
   width: 20rem;
-  background-color: var(--secondary-accent-color);
+  /* background-color: var(--secondary-accent-color); */
   border-radius: 2rem;
   /* grid-template-rows: 3fr 7fr;
   grid-template-areas: "title"
@@ -345,4 +350,107 @@
 #footer a {
   text-decoration: none;
   color: var(--primary-text-color);
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 799px){
+
+  .page {
+    overflow-x: hidden;
+  }
+
+  /* HEADER */
+
+  #header {
+    height: 10vh;
+    
+  }
+
+  #ssoc-logo {
+    height: 6rem;
+  }
+
+  #codemin-logo {
+    height: 1.4rem;
+  }
+
+  /* LANDING PAGE */
+
+  #Details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -4rem;
+  }
+
+  #landing-title {
+    font-size: 3.5rem;
+  }
+
+  .details-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  #illustration-container {
+    position: absolute;
+    opacity: 0.05;
+    pointer-events: none;
+    /* display: none; */
+  }
+
+  /* ABOUT PAGE */
+
+  #about-page #about-section{
+    width: auto;
+  }
+
+  /* TIMELINE PAGE*/
+
+
+
+
+  /* TIMELINE COMING SOON PAGE*/
+
+
+  .timeline-coming-soon-heading {
+    /* gap: 0; */
+  }
+
+
+  /* SPONSORS PAGE */
+
+  .sponsor-panel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 1rem;
+  }
+
+  .sponsor-heading-gold {
+    margin-top: 4rem;
+  }
+
+  /* CONTACT PAGE */
+
+  #contact-page {
+    height: 20vh;
+    padding: 2rem;
+    font-size: 1.2rem;
+    
+  }
+
+  /* FOOTER */
+
+   #footer {
+    height: 5vh;
+    width: auto;
+    flex-direction: column;
+    
+   }   
 }
