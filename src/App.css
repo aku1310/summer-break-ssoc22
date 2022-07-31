@@ -5,10 +5,12 @@
 
   /* Colors */
 
-  --primary-bg-color: #031b3f;
-  --primary-bg-color-translucent: #0161a1;
-  --primary-accent-color: #007ccf;
+  /* --primary-bg-color: #d4ad2f; */
+  --primary-bg-color: #cbcda3;
+  --primary-bg-color-translucent: #c1e141;
+  --primary-accent-color: #c46800;
   --secondary-accent-color: #cde0ff;
+  --primary-text-color: #2e1e00;
 
   /* Fonts */
 
@@ -72,7 +74,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   background-color: var(--primary-bg-color);
-  color: #fff;
+  color: var(--primary-text-color);
 }
 
 .apply-button {
@@ -99,16 +101,20 @@
 /* ABOUT PAGE */
 
 #about-page #about-section {
-  margin-top: 4rem;
-  background-color: var(--primary-bg-color-translucent);
-  color: var(--secondary-accent-color);
-  min-width: 45rem;
+  /* margin-top: 4rem; */
+  /* background-color: var(--primary-bg-color-translucent); */
+  color: var(--primary-text-color);
+  width: 48rem;
+  padding: 2rem;
   min-height: 30rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   border-radius: 1rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  gap: 2.3rem;
 }
 
 
@@ -251,7 +257,8 @@
 
 #coming-soon {
   font-size: 3rem;
-  color: var(--secondary-accent-color);
+  color: var(--primary-text-color);
+  font-weight: bold;
 }
 
 /* SPONSOR PAGE */
@@ -265,7 +272,7 @@
   margin-bottom: 6rem;
   min-height: 35rem;
   width: 60rem;
-  color: var(--secondary-accent-color);
+  color: var(--primary-text-color);
   font-size: 2rem;
 }
 
@@ -320,7 +327,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--primary-bg-color);
-  color: var(--secondary-accent-color);
+  color: var(--primary-text-color);
   font-size: 2rem;
 }
 
@@ -337,5 +344,5 @@
 
 #footer a {
   text-decoration: none;
-  color: var(--secondary-accent-color);
+  color: var(--primary-text-color);
 }

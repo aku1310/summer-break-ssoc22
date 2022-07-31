@@ -21,8 +21,8 @@ function Landing() {
             <p className='details-landing'>Join us at: <span className='accented'>Bennet University, Greater Noida</span> <a href='https://goo.gl/maps/d6YpcNqU8sDLmhSj6' target='_blank' rel='noreferrer'><img src={require('./../images/outside-link')} id='bennet-link-image' alt='outlink'/></a></p><br/><br/><br/>
             <div 
               className='apply-button' 
-              data-hackathon-slug="YOUR-HACKATHON-SLUG" 
-              data-button-theme="light"
+              data-hackathon-slug="summerbreak" 
+              data-button-theme="dark-inverted"
               style={{width: 2 + 'em'}}
             ></div>
         </div>
