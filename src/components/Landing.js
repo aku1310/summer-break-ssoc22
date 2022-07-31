@@ -27,7 +27,7 @@ function Landing() {
             ></div>
         </div>
         <div id='illustration-container'>
-          <img src={require('./../images/blockchain.png')} alt='blockchain-illustration'/>
+          <img id = 'illus'src={require('./../images/blockchain.png')} alt='blockchain-illustration'/>
         </div>
     </div>
   )

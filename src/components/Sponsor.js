@@ -40,12 +40,16 @@ function Sponsor() {
 
             <div className='card'>
               {/* <h6 className='card-title'>Devfolio</h6> */}
-              <img className='card-logo' src={require('./../images/Devfolio_Logo-Colored.png')} alt='devfolio-logo'/>
+              <a href='https://devfolio.co/' target='_blank'>
+                <img className='card-logo' src={require('./../images/Devfolio_Logo-Colored.png')} alt='devfolio-logo'/>
+              </a>
             </div>
             
             <div className='card'>
               {/* <h6 className='card-title'>Polygon</h6> */}
-              <img className='card-logo' src={require('./../images/Polygon_Logo-Colored.png')} alt='polygon-logo'/>
+              <a href='https://polygon.technology/' target='_blank'>
+                <img className='card-logo' src={require('./../images/Polygon_Logo-Colored.png')} alt='polygon-logo'/>
+              </a>
             </div>
           </section>
           
@@ -66,7 +70,9 @@ function Sponsor() {
 
             <div className='card'>
               {/* <h6 className='card-title'>FileCoin</h6> */}
-              <img className='card-logo' src={require('./../images/Filecoin Coloured White Text.png')} alt='filecoin-logo'/>
+              <a href='https://filecoin.io/' target='_blank'>
+                <img className='card-logo' src={require('./../images/Filecoin Coloured White Text.png')} alt='filecoin-logo'/>
+              </a>
             </div>
 
           </section>
