@@ -266,6 +266,28 @@
   font-weight: bold;
 }
 
+/* SPEAKER PAGE */
+
+.name-speaker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.speaker-name {
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-text-color);
+}
+
+.speak {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* SPONSOR PAGE */
 
 .sponsor-card-container {
