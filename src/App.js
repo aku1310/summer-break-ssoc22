@@ -15,8 +15,8 @@ function App() {
       <Header/>
       <Landing/>
       <About/>
-      <TimelineComingSoon/>
-      {/* <Timeline/> */}
+      {/* <TimelineComingSoon/> */}
+      <Timeline/>
       <Speaker/>
       <Sponsor/>
       <Contact/>
