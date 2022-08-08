@@ -209,18 +209,18 @@
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: var(--secondary-accent-color);
+  color: var(--primary-accent-color);
   text-transform: uppercase;
   /* letter-spacing: 1px;
   z-index: 1; */
 }
 
 .container.left .date {
-  right: -135px;
+  right: -10rem;
 }
 
 .container.right .date {
-  left: -135px;
+  left: -10rem;
 }
 
 .container .content {
@@ -228,18 +228,22 @@
   background: var(--primary-accent-color);
   position: relative;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container.right .content {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .container .content h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: var(--secondary-accent-color);
+  color: var(--primary-text-color);
   font-weight: 600;
 }
 
@@ -438,7 +442,42 @@
 
   /* TIMELINE PAGE*/
 
+  .timeline::after {
+    left: 90px;
+  }
 
+  .container {
+    width: 10rem;
+    padding-left: 8rem;
+    padding-right: 2rem;
+  }
+
+  .container.right {
+    left: 0;
+  }
+
+  .container.left::after, 
+  .container.right::after {
+    left: 5rem;
+  }
+
+  .container.left::before,
+  .container.right::before {
+    left: 6rem;
+    border-color: transparent #006E51 transparent transparent;
+  }
+
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: -6rem;
+  }
+
+  .container.left .content,
+  .container.right .content {
+    padding: 5rem;
+    border-radius: 0 3rem 3rem 0;
+  }
 
 
   /* TIMELINE COMING SOON PAGE*/
