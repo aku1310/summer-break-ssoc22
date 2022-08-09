@@ -132,8 +132,8 @@
 #timeline-page {
   position: relative;
   width: 100%;
-  margin: 0 auto;
-  padding: 16rem;
+  /* margin: 0 auto; */
+  padding: 14rem;
 }
 
 #timeline-page::after {
@@ -141,7 +141,7 @@
   position: absolute;
   width: 2px;
   background: var(--secondary-accent-color);
-  top: 22%;
+  top: 20%;
   bottom: 22.5%;
   left: 50%;
   margin-left: -1px;
@@ -443,12 +443,12 @@
   /* TIMELINE PAGE*/
 
   .timeline::after {
-    left: 90px;
+    left: 0px;
   }
 
   .container {
     width: 10rem;
-    padding-left: 8rem;
+    margin-left: 6.5rem;
     padding-right: 2rem;
   }
 
@@ -458,25 +458,32 @@
 
   .container.left::after, 
   .container.right::after {
-    left: 5rem;
+    left: 0rem;
   }
 
   .container.left::before,
   .container.right::before {
-    left: 6rem;
-    border-color: transparent #006E51 transparent transparent;
+    left: 1rem;
+    /* border-color: transparent #006E51 transparent transparent; */
   }
 
   .container.left .date,
   .container.right .date {
     right: auto;
-    left: -6rem;
+    left: -10rem;
   }
 
   .container.left .content,
   .container.right .content {
     padding: 5rem;
     border-radius: 0 3rem 3rem 0;
+  }
+
+  #timeline-page::after {
+    top: 10%;
+    bottom: 9%;
+    left: 45%;
+    margin-left: -1px;
   }
 
 
