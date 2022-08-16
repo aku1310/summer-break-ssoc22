@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5216795.css",
-    "main.js": "/static/js/main.3bb40440.js",
+    "main.css": "/static/css/main.be09ead8.css",
+    "main.js": "/static/js/main.3f233c60.js",
     "static/js/787.dddc0308.chunk.js": "/static/js/787.dddc0308.chunk.js",
     "static/media/blockchain.png": "/static/media/blockchain.ff3a9b45cd3a22eb5e81.png",
     "static/media/speaker-mohit-bhat.jpeg": "/static/media/speaker-mohit-bhat.bc9d836ba0715413ad32.jpeg",
     "static/media/social-logo.png": "/static/media/social-logo.4cf0e2be8a49065baab5.png",
     "static/media/outside-link": "/static/media/outside-link.f6f93f9e35101e86ff3e",
+    "static/media/gradright-logo.png": "/static/media/gradright-logo.7303d9b25deb1f583f39.png",
     "static/media/speaker-prateek-narang.jpeg": "/static/media/speaker-prateek-narang.8f1e9685d84baf38963a.jpeg",
     "index.html": "/index.html",
-    "main.c5216795.css.map": "/static/css/main.c5216795.css.map",
-    "main.3bb40440.js.map": "/static/js/main.3bb40440.js.map",
+    "main.be09ead8.css.map": "/static/css/main.be09ead8.css.map",
+    "main.3f233c60.js.map": "/static/js/main.3f233c60.js.map",
     "787.dddc0308.chunk.js.map": "/static/js/787.dddc0308.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5216795.css",
-    "static/js/main.3bb40440.js"
+    "static/css/main.be09ead8.css",
+    "static/js/main.3f233c60.js"
   ]
 }
