@@ -76,7 +76,24 @@ function Sponsor() {
             </div>
 
           </section>
+          
+          <h4 className='sponsor-heading-SAP'>Study Abroad Partner</h4>
+          <section id='sap-sponsors' className='sponsor-panel'>
+            <div className='card'>
+              <a href='https://www.gradright.com/' target='_blank'>
+                <img className='card-logo' src={require('./../images/gradright-logo.png')} alt='GradRight-logo'/>
+              </a>
+            </div>
+          </section>
 
+          <h4 className='sponsor-heading-community'>Community Partner</h4>
+          <section id='sap-sponsors' className='sponsor-panel'>
+            <div className='card'>
+              <a href='https://indianblockchainfraternity.tech/' target='_blank'>
+                <img className='card-logo' src={require('./../images/IBF-logo.png')} alt='IBF-logo'/>
+              </a>
+            </div>
+          </section>
 
         </div>
     </div>

@@ -314,6 +314,7 @@
   align-items: center;
   min-height: 10rem;
   width: 100%;
+  margin-top: 2rem;
 }
 
 .card {
@@ -322,6 +323,7 @@
   width: 20rem;
   background-color: white;
   border-radius: 2rem;
+  margin-bottom: 4rem;
   /* grid-template-rows: 3fr 7fr;
   grid-template-areas: "title"
                        "logo"; */
@@ -500,15 +502,16 @@
   .sponsor-panel {
     display: flex;
     flex-direction: column;
+    margin-bottom: 4rem;
   }
 
   .card {
     margin: 1rem;
   }
 
-  .sponsor-heading-gold {
+  /* .sponsor-heading-gold {
     margin-top: 4rem;
-  }
+  } */
 
   /* CONTACT PAGE */
 
